@@ -22,7 +22,7 @@ include("includes/db.php");
 		<!--Header starts here-->
 		<div class="header_wrapper">
 		
-		<a href="index.php"><img id="logo" src="images/logo.png" style="display: block; width:100%; height: 25%"/> </a>
+		<a href="index.php"><img id="logo" src="images/logo.png" style="display: block;width:50%;margin:0 auto;"/> </a>
 		</div>
 		<!--Header ends here-->
 		

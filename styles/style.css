@@ -31,8 +31,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {background: white}
 
-
-
 .main_wrapper{
 width:auto;
 height:auto;
@@ -42,8 +40,7 @@ background:white;
 
 .header_wrapper{
 widows:auto;
-height:auto;
-margin:auto;
+margin: 0;
 
 }
 
