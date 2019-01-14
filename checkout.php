@@ -43,18 +43,6 @@ include("functions/functions.php");
 	
 		<!--Content wrapper starts-->
 		<div class="content_wrapper">
-		
-			<div id="sidebar">
-			
-				<div id="sidebar_title">Categories</div>
-				
-				<ul id="cats">
-				
-				<?php getCats(); ?>
-				
-				<ul>
-					
-				
 			<div id="content_area">
 			
 			<?php cart(); ?>
@@ -80,40 +68,30 @@ include("functions/functions.php");
 					</span>
 			</div>
 			
-				<div id="products_box">
+				<div id="products_box" style-"width:100%;">
 				
 				<?php 
 				if(!isset($_SESSION['customer_email'])){
-					
 					include("customer_login.php");
 				}
 				else {
-				
-				include("payment.php");
-				
+					include("payment.php");
 				}
 				
 				?>
 				
 				</div>
-			
 			</div>
-		</div>
+		</div>	
 		<!--Content wrapper ends-->
 		
 		
 		
-		<div id="footer">
+		<div id="footer" style="width:100%;">
 		
 		<h2 style="text-align:center; padding-top:30px;">&copy; rhayat calamber</h2>
 		
 		</div>
-	
-	
-	
-	
-	
-	
 	</div> 
 <!--Main Container ends here-->
 

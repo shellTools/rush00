@@ -6,7 +6,7 @@ include("includes/db.php");
 	
 	<form method="post" action=""> 
 		
-		<table width="500" align="center" bgcolor="skyblue"> 
+		<table width="500px" align="center" bgcolor="skyblue"> 
 			
 			<tr align="center">
 				<td colspan="3"><h2>Login or Register to Buy!</h2></td>
