@@ -74,17 +74,15 @@ include("functions/functions.php");
 					}
 					?>
 
-					<b style="color:yellow">Shopping Cart -</b> Total Items: <?php total_items();?> Total Price: <?php total_price(); ?> <a href="cart.php" style="color:yellow">Go to Cart</a>
-
-
+					<a href="cart.php"><b><button>Shopping Cart -</b> Total Items: <?php total_items();?> Total Price: <?php total_price(); ?></button></a>
 					<?php
 					if(!isset($_SESSION['customer_email'])){
 
-					echo "<a href='checkout.php' style='color:orange;'>Login</a>";
+					echo "<a href='checkout.php'><button>Login</button></a>";
 
 					}
 					else {
-					echo "<a href='logout.php' style='color:orange;'>Logout</a>";
+					echo "<a href='logout.php'><button>Logout</button></a>";
 					}
 
 

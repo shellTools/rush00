@@ -73,7 +73,7 @@ include("functions/functions.php");
 					?>
 					
 					
-					<b style="color:yellow">Shopping Cart -</b> Total Items: <?php total_items();?> Total Price: <?php total_price(); ?> <a href="cart.php" style="color:yellow">Go to Cart</a>
+					<a href="cart.php"><b><button>Shopping Cart -</b> Total Items: <?php total_items();?> Total Price: <?php total_price(); ?></button></a>
 					
 					
 					
@@ -105,7 +105,7 @@ include("functions/functions.php");
 		
 		<div id="footer">
 		
-		<h2 style="text-align:center; padding-top:30px;">&copy; Name Name</h2>
+		<h2 style="text-align:center; padding-top:30px;">&copy; rhayat calamber</h2>
 		
 		</div>
 	

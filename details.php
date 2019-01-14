@@ -61,7 +61,7 @@ include("functions/functions.php");
 					
 					<span style="float:right; font-size:18px; padding:5px; line-height:40px;">
 					
-					Welcome Guest! <b style="color:yellow">Shopping Cart -</b> Total Items: Total Price: <a href="cart.php" style="color:yellow">Go to Cart</a>
+					Welcome Guest! <a href="cart.php"><b><button>Shopping Cart -</b> Total Items: <?php total_items();?> Total Price: <?php total_price(); ?></button></a>
 					
 					
 					
